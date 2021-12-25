@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Conquering Responsive Layout CSS</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container row">
+        <button class="nav-toggle" aria-label="open navigation">
+          <span class="hamburger"></span>
+        </button>
+        <a class="logo" href="#">
+          <img src="./src/img/logo.svg" alt="Conquering Responsive Layout" />
+        </a>
+        <nav class="nav">
+          <ul class="nav__list nav__list--primary">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+          <ul class="nav__list nav__list--secondary">
+            <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--button">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="intro">
+        <div class="container row">
+          <h1 class="intro__title">
+            Responsive layouts
+            <span class="intro__accent">don't have to be a struggle</span>
+          </h1>
+          <div class="intro__content">
+            <p class="intro__presentation">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              nihil neque dolor quis laborum quae tempore autem eligendi
+              doloremque adipisci? Cupiditate exercitationem reprehenderit
+              impedit quidem! Similique magni nihil quisquam natus.
+            </p>
+            <a class="button" href="#">I want to learn</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="guide">
+        <div class="container row">
+          <div class="col">
+            <h2 class="guide__title">Mobile-first</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              cumque fugit, commodi voluptate, maxime, ducimus aspernatur
+              voluptatem suscipit aliquam reiciendis voluptatum officia possimus
+              deleniti similique iure reprehenderit vel optio et.
+            </p>
+          </div>
+          <div class="col">
+            <h2 class="guide__title">Efficient</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem
+              necessitatibus asperiores eos! Dolor explicabo reprehenderit
+              itaque veritatis, quidem vero ut reiciendis modi error
+              perspiciatis voluptas? Obcaecati necessitatibus quis maxime
+              recusandae!
+            </p>
+          </div>
+          <div class="col">
+            <h2 class="guide__title">Done right</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint,
+              minima! Dolore ad in veniam ducimus incidunt quos assumenda eos,
+              nobis esse repudiandae perferendis dignissimos repellendus nulla
+              facilis possimus placeat nihil.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="plan">
+        <div class="container plan__wrapper">
+          <article class="plan__content">
+            <h2 class="plan__title">It doesn't have to be so hard</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+              sapiente id possimus quis? Veritatis perspiciatis laudantium nobis
+              rem. Fuga perspiciatis modi est doloribus debitis, recusandae
+              cupiditate accusantium deleniti repellat atque.
+            </p>
+            <img
+              class="plan__image"
+              src="./src/img/big-img.jpg"
+              alt="Plan Image"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+              explicabo repudiandae. Vero deleniti molestias fugiat dignissimos
+              quam natus dolor, excepturi accusantium nostrum quae corporis
+              alias, odit saepe quos, similique cumque!
+            </p>
+          </article>
+          <aside class="row plan__aside">
+            <div class="col plan__card">
+              <h2 class="plan__sub-title">Break it down</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                illum mollitia quod perspiciatis fugit blanditiis, quo error ex
+                incidunt debitis esse expedita itaque ea tempora harum, ipsa
+                vero ipsam tenetur?
+              </p>
+            </div>
+            <div class="col plan__card">
+              <h2 class="plan__sub-title">Work your way</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+                repudiandae tenetur at velit tempore quibusdam, reiciendis
+                aliquid nesciunt consectetur quae vel molestiae minima sint
+                provident rerum sequi distinctio nobis laudantium?
+              </p>
+            </div>
+            <div class="col plan__card">
+              <h2 class="plan__sub-title">Break it down</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+                culpa impedit consequuntur, eveniet harum omnis fugiat libero
+                vel atque temporibus distinctio maxime dolor repellat, rem nam
+                at a doloremque quis!
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer__title">Just Scratching the surface</h2>
+        <div class="footer__wrapper">
+          <div class="footer__info">
+            <h3 class="footer__sub-title">About our company</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+              voluptate a reprehenderit facere fuga illo qui? Nam eligendi
+              consectetur ad atque beatae modi? Quam cum molestias amet quo
+              velit dolorem.
+            </p>
+          </div>
+          <div class="footer__about row">
+            <div>
+              <h3 class="footer__sub-title">Getting around</h3>
+              <a class="footer__link" href="#">Home</a>
+              <a class="footer__link" href="#">About</a>
+              <a class="footer__link" href="#">Contact</a>
+            </div>
+            <div>
+              <h3 class="footer__sub-title">Other things</h3>
+              <a class="footer__link" href="#">Lorem iasum</a>
+              <a class="footer__link" href="#">Dolor</a>
+              <a class="footer__link" href="#">Sit Amet</a>
+              <a class="footer__link" href="#">Consectetur</a>
+            </div>
+            <div>
+              <h3 class="footer__sub-title">And more</h3>
+              <a class="footer__link" href="#">Lorem iasum</a>
+              <a class="footer__link" href="#">Dolor</a>
+              <a class="footer__link" href="#">Sit Amet</a>
+              <a class="footer__link" href="#">Consectetur</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./src/js/navbar.js"></script>
+  </body>
+</html>
